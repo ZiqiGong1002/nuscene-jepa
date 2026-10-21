@@ -1,0 +1,17 @@
+# nuScenes data and derived clips may not be redistributed (nuScenes terms of use)
+data/
+*.mp4
+*.tgz
+# upstream V-JEPA code is cloned separately, not vendored
+jepa/
+# checkpoints and raw logs
+logs/
+*.pth
+*.pth.tar
+*.pt
+*.ckpt
+# local envs / caches
+.venv/
+venv/
+__pycache__/
+*.pyc
